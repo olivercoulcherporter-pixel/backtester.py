@@ -107,7 +107,6 @@ def calculate_rsi(close_list, rsi_period):
         rsi_values.append(100)
 
     else:
-        
         relative_strength = average_gain / average_loss
         initial_rsi = 100 - (100 / (1 + relative_strength))
         rsi_values.append(initial_rsi)
