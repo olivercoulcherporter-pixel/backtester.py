@@ -1,2 +1,2 @@
-# backtester.py
+#
 ...
